@@ -1,0 +1,107 @@
+/* основной цвет текста #757575 */
+/* вторичный цвет текста #212121 */
+/* акцент #2196F3 */
+/* основной цвет фона #FFFFFF  */
+/*  цвет фона герой #2F303A */
+/*  цвет фона "наша команда" #F5F4FA*/
+/* цвет ткста в подвале rgba(255, 255, 255, 0.6); */
+/* фон кнопки #F5F4FA */
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+  --primary-white-color: #ffffff;
+  --secondary-bg-color: #2f303a;
+  --button-bg-color: #f5f4fa;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+/* color web */
+.web {
+  color: var(--accent-color);
+}
+
+/* header */
+.logo {
+  color: #000000;
+}
+
+/* site-nav */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.our-contacts .item:hover,
+.our-contacts .item:focus {
+  color: var(--accent-color);
+}
+
+/* contacts */
+.our-contacts .item {
+  color: var(--primary-text-color);
+}
+
+/* footer */
+.footer {
+  background-color: var(--secondary-bg-color);
+  color: var(--primary-white-color);
+}
+.logo-footer {
+  color: var(--primary-white-color);
+}
+
+.address .item {
+  color: var(--footer-text-color);
+}
+.address .item:hover,
+.address .item:focus {
+  color: var(--accent-color);
+}
+
+/* main */
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* hero */
+.hero {
+  background-color: var(--secondary-bg-color);
+}
+.hero-title {
+  color: var(--primary-white-color);
+}
+
+/* features, team, portfolio title*/
+.portfolio .title,
+.team .title,
+.features .title {
+  color: var(--title-text-color);
+}
+
+/* button */
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.button.primary {
+  color: var(--title-text-color);
+  background-color: var(--button-bg-color);
+}
+
+.button.primary:hover,
+.button.primary:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
