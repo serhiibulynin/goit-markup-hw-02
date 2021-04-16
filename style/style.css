@@ -85,9 +85,15 @@ body {
   text-decoration: none;
 }
 
+/* Address */
+.address {
+  font-style: normal;
+}
+
 .address .item {
   color: var(--footer-text-color);
   text-decoration: none;
+  font-style: normal;
 }
 .address .item:hover,
 .address .item:focus {
